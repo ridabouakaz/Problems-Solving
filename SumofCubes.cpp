@@ -20,8 +20,13 @@ int main() {
 }
 /*Description:
 
-Determine the total number of digits in the integer (n>=0) given as input to the function. For example, 9 is a single digit, 66 has 2 digits and 128685 has 6 digits. Be careful to avoid overflows/underflows.
+Write a function that takes a positive integer n, sums all the cubed values from 1 to n(inclusive), and returns that sum.
 
-All inputs will be valid.
-Strings
+Assume that the input n will always be a positive integer.
+
+Examples : (Input-- > output)
+
+2 -- > 9 (sum of the cubes of 1 and 2 is 1 + 8)
+3 -- > 36 (sum of the cubes of 1, 2, and 3 is 1 + 8 + 27)
+
 Fundamentals*/
