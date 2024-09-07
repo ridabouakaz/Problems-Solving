@@ -5,19 +5,6 @@
 #include <string>
 #include <sstream>
 #include <climits>
-/*	string strinn = to_string(n);
-	int result = 0;
-	string striresult = to_string(result);
-	int count = 0;
-	for (int i = 0; i < strinn.size(); i++)
-	{
-		result *= strinn[i] - '0';
-		count++;
-		if (striresult.size()>2)
-		{
-			result *= striresult[i] - '0';
-			count++;
-		}*/
 using namespace std;
 int persistence(long long n) {
 	int count = 0;
